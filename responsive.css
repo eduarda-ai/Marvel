@@ -24,6 +24,15 @@
         max-width: 500px;
     }
 
+
+    
+      @media (max-width: 768px) {
+        .conteudo .descricao {
+          font-size: 16px; /* Tamanho do texto para telas menores */
+        }
+      }
+      
+
     .botoes {
         flex-direction: row;
         align-items: flex-end;
